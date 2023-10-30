@@ -1,0 +1,17 @@
+.popup__input {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background-color: transparent;
+  color: var(--262526, #262526);
+  font-family: 'Inter-2', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+}

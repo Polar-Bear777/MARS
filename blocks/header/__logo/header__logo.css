@@ -1,0 +1,5 @@
+.header__logo {
+  width: 82px;
+  height: 36px;
+  flex-shrink: 0;
+}

@@ -1,0 +1,15 @@
+.popup__submit {
+  border-radius: 4px;
+  background: var(--262526, #262526);
+  padding: 10px 15px;
+  color: var(--f-2-e-1-c-2, #F2E1C2);
+  font-family: 'Inter-2', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 387px;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+}

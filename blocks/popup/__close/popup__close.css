@@ -1,0 +1,5 @@
+.popup__close {
+  background-color: #262526;
+  padding: 10px;
+  cursor: pointer;
+}

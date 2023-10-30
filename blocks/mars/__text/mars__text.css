@@ -1,0 +1,12 @@
+.mars__text {
+  color: var(--f-23207, #F23207);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 -10px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.025em;
+  text-align: left;
+  text-rendering: optimizeLegibility;
+}

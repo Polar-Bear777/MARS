@@ -1,0 +1,14 @@
+.mars__title {
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: -80px auto 0;
+  color: transparent;
+  background-image: url('../../../images/maaaars.gif');
+  -webkit-background-clip: text;
+  letter-spacing: -10.729px;
+  font-size: 715.255px;
+  text-rendering: optimizeLegibility;
+}

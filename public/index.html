@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../pages/index.css">
+  <title>Mesto</title>
+</head>
+
+<body class="page">
+  <!-- Блок Header !-->
+  <header class="header">
+    <img src="./../images/mars_logo.svg" class="header__logo" alt="Логотип MARS">
+    <nav class="header__nav">
+      <ul class="header__links">
+        <li class="header__button"><a class="header__link" href="#">О марсе</a></li>
+        <li class="header__button"><a class="header__link" href="#">Процесс</a></li>
+        <li class="header__button"><a class="header__link" href="#">Билеты</a></li>
+        <li class="header__button"><a class="header__link" href="#">Новости</a></li>
+        <li class="header__button"><a class="header__link" href="#">Контакты</a></li>
+      </ul>
+      <div class="header__button header__button_mod" id="buyButton">Купить билеты</div>
+    </nav>
+  </header>
+
+  <!-- Блок про MARS !-->
+  <main class="mars">
+    <div class="mars__image-container">
+      <img src="./../images/mars_way-1.svg" class="mars__way-1" alt="Точка А">
+      <img src="./../images/mars_way-2.svg" class="mars__way-2" alt="Путь к Марсу">
+      <img src="./../images/mars_way-3.svg" class="mars__way-3" alt="Точка Б">
+    </div>
+    <div class="mars__container">
+      <h2 class="mars__text">Точка назначения:</h2>
+      <h1 class="mars__title">МАРС</h1>
+    </div>
+  </main>
+
+  <!-- Попап открытия !-->
+  <div id="popup" class="popup">
+    <div class="popup__content">
+      <h1 class="popup__title">Бронирование билетов</h1>
+      <img src="./../images/close.svg" id="closeButton" class="popup__close" alt="Закрыть окно">
+    </div>
+    <form class="popup__form">
+      <div class="popup__inputs">
+        <div class="popup__inputs-container">
+          <label class="popup__label" for="check-in-date">Дата заезда:</label>
+          <input class="popup__input" id="check-in-date" name="check-in-date">
+        </div>
+        <div class="popup__inputs-container">
+          <label class="popup__label" for="check-out-date">Дата выезда:</label>
+          <input class="popup__input" id="check-out-date" name="check-out-date">
+        </div>
+        <div class="popup__inputs-container">
+          <label class="popup__label" for="quantity">Количество:</label>
+          <input class="popup__input" id="quantity" name="quantity">
+        </div>
+      </div>
+      <div class="popup__form-container">
+        <button class="popup__submit" type="submit">Купить билеты</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Запуск скрипта -->
+  <script src="./../index.js"></script>
+</body>
+
+</html>

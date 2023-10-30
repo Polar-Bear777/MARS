@@ -1,0 +1,17 @@
+.header__link {
+  text-decoration: none;
+  list-style: none;
+  color: var(--f-2-e-1-c-2, #F2E1C2);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: 'Inter-2', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.header__link:hover {
+  color: var(--f-23207, #F23207);
+  transition: 0.8s linear;
+}

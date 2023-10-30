@@ -1,0 +1,6 @@
+.mars {
+  max-width: 1197px;
+  display: flex;
+  flex-direction: row;
+  margin: 131px auto 0;
+}

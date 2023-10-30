@@ -1,0 +1,21 @@
+.header__button_mod {
+  gap: 40px;
+  color: var(--262526, #262526);
+  font-family: 'Inter-2', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: var(--f-2-e-1-c-2, #F2E1C2);
+  padding: 10px 15px;
+  cursor: pointer;
+  text-rendering: optimizeLegibility;
+}
+
+.header__button_mod:hover {
+  color: var(--f-2-e-1-c-2, #F2E1C2);
+  background: var(--f-23207, #F23207);
+  transition: 0.8s linear;
+}

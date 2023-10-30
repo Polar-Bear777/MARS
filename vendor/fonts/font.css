@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./BebasNeueBold.woff2') format('woff2'),
+    url('./BebasNeueBold.woff2') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter-2';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    url('./Montserrat-SemiBold.woff2') format('woff2'),
+    url('./Montserrat-SemiBold.woff') format('woff');
+}
